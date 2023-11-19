@@ -1,0 +1,16 @@
+shared:
+  image: node:18
+jobs:
+  downA:
+    requires: [~sd@12593:A]
+    steps:
+      - echo "hello"
+      - sleep 300
+  downB:
+    requires: [~sd@12593:B]
+    steps:
+      - echo "hello"
+  downC:
+    requires: [~sd@12593:C]
+    steps:
+      - echo "hello"
