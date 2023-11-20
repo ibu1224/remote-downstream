@@ -14,3 +14,7 @@ jobs:
     requires: [~sd@12593:C]
     steps:
       - echo "hello"
+  downD:
+    requires: [~sd@12593:D]
+    steps:
+      - echo "hello"
